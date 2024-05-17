@@ -1,3 +1,5 @@
+//  a new array containing the names of the tutorials with proper title case formatting. For example, 'what does the this keyword mean?' should become 'What Does The This Keyword Mean?'.
+
 const tutorials = [
   'what does the this keyword mean?',
   'What is the Constructor OO pattern?',
@@ -11,6 +13,19 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  return tutorials
+const tutorials1 = [
+  'What Does The This Keyword Mean?',
+  'What Is The Constructor OO Pattern?',
+  'Implementing Blockchain Web API',
+  'The Test Driven Development Workflow',
+  'What Is NaN And How Can We Check For It',
+  'What Is The Difference Between StopPropagation And PreventDefault?',
+  'Immutable State And Pure Functions',
+  'What Is The Difference Between == And ===?',
+  'What Is The Difference Between Event Capturing And Bubbling?',
+  'What Is JSONP?'
+]
+
+function titleCased() {
+  return tutorials1; 
 }
